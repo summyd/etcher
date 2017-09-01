@@ -89,5 +89,6 @@ rpm:
   depends:
     - lsb
     - libXScrnSaver
+    - gksu | kdesu | beesu
 appImage:
   icon: assets/icon.png
