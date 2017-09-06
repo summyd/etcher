@@ -68,6 +68,8 @@ else
 
   npm config set spin=false
   npm config set progress=false
+  npm install --global npm@5.4.0
+
   pip install --quiet -r requirements.txt
 
   make info

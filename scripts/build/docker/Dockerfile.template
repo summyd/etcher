@@ -56,6 +56,9 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - \
 RUN npm config set unsafe-perm=true
 
 RUN npm config set spin=false
+RUN npm config set progress=false
+
+RUN npm install --global npm@5.4.0
 
 # Python
 COPY requirements.txt requirements.txt
